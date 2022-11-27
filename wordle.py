@@ -9,7 +9,7 @@ def get_word(i):
     js = requests.get(url=url).text
     
     output = json.loads(js.split(',it=')[1].split(';var lt=')[0])
-
+    print(type(output))
     known = [output.index('happy'), datetime.datetime.strptime('Nov 27 2022', '%b %d %Y')]
     
     current_index = known[0] + (datetime.datetime.now() - known[1]).days
