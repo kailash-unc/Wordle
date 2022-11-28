@@ -16,7 +16,9 @@ In the worldle.py file, the function call getword(i = input()) means the followi
 input() is a command line integer input of the day's answer you are looking for.
 
 1 = Tommorow
+
 0 = Today
+
 -1 = Yesterday
 
 Input can be any [-14725+ to 130+] ('+' indicates expansion as new words are added to the bank)
