@@ -12,7 +12,7 @@ python wordle.py
 ```
 Arguments: 
 
-input() is a command line integer input of the day's answer you are looking for.
+input() is a command line 'integer' input of the day's answer you are looking for.
 
 1 = Tommorow
 
