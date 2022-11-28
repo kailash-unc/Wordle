@@ -1,6 +1,8 @@
 # Wordle
 An application that scrapes The New York Times' Wordle Game js files to find the daily answer.
 
+<img width="674" alt="Screen Shot 2022-11-27 at 7 03 00 PM" src="https://user-images.githubusercontent.com/69515228/204167044-0de489e9-8352-48f2-9453-708c3ae256d1.png">
+
 ## Usage
 
 Enter the following into your command line
@@ -8,7 +10,16 @@ Enter the following into your command line
 ```
 python wordle.py
 ```
-Arguements: getword(i = input()) where input() is a command line integer input of the day's answer you are looking for.
+Arguments: 
+In the worldle.py file, the function call getword(i = input()) means the following.
+
+input() is a command line integer input of the day's answer you are looking for.
+
+1 = Tommorow
+0 = Today
+-1 = Yesterday
+
+Input can be any [-14725+ to 130+] ('+' indicates expansion as new words are added to the bank)
 
 ## How
 
