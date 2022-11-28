@@ -11,6 +11,7 @@ Enter the following into your command line
 python wordle.py
 ```
 Arguments: 
+
 In the worldle.py file, the function call getword(i = input()) means the following.
 
 input() is a command line integer input of the day's answer you are looking for.
