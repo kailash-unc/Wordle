@@ -1,4 +1,4 @@
-# Wordle
+# Wordle Solver
 An application that scrapes The New York Times' Wordle Game js files to find the daily answer.
 
 <img width="674" alt="Screen Shot 2022-11-27 at 7 03 00 PM" src="https://user-images.githubusercontent.com/69515228/204167044-0de489e9-8352-48f2-9453-708c3ae256d1.png">
